@@ -18,6 +18,7 @@
 		8CB6314A2BF981FA0002CEEE /* SoloMissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB631492BF981FA0002CEEE /* SoloMissionTests.swift */; };
 		8CB631542BF981FA0002CEEE /* SoloMissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB631532BF981FA0002CEEE /* SoloMissionUITests.swift */; };
 		8CB631562BF981FA0002CEEE /* SoloMissionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB631552BF981FA0002CEEE /* SoloMissionUITestsLaunchTests.swift */; };
+		8CB631632BF983930002CEEE /* bulletSoundEffect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8CB631622BF983930002CEEE /* bulletSoundEffect.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		8CB6314F2BF981FA0002CEEE /* SoloMissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoloMissionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB631532BF981FA0002CEEE /* SoloMissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloMissionUITests.swift; sourceTree = "<group>"; };
 		8CB631552BF981FA0002CEEE /* SoloMissionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloMissionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CB631622BF983930002CEEE /* bulletSoundEffect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bulletSoundEffect.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		8CB6312E2BF981F90002CEEE /* SoloMission */ = {
 			isa = PBXGroup;
 			children = (
+				8CB631622BF983930002CEEE /* bulletSoundEffect.mp3 */,
 				8CB6312F2BF981F90002CEEE /* AppDelegate.swift */,
 				8CB631312BF981F90002CEEE /* GameScene.sks */,
 				8CB631332BF981F90002CEEE /* Actions.sks */,
@@ -240,6 +243,7 @@
 				8CB6313D2BF981FA0002CEEE /* Assets.xcassets in Resources */,
 				8CB631342BF981F90002CEEE /* Actions.sks in Resources */,
 				8CB631402BF981FA0002CEEE /* Base in Resources */,
+				8CB631632BF983930002CEEE /* bulletSoundEffect.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
